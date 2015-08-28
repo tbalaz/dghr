@@ -7,6 +7,8 @@ from https://github.com/datagovuk/dgu-vagrant-puppet/tree/togo
 
 2. Pull dghr to /tmp on your server
 
-3. Run sudo ./deploydghr.sh
+3. Go to /dghr (cd /tmp/dghr/)
+
+4. Run sudo ./deploydghr.sh
 
 Thats all!
