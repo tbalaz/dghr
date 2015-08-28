@@ -35,7 +35,7 @@ chown -R co:www-data /var/www/files/drupal/dgud7/
 chmod -R g+w /var/www/files/drupal/dgud7/files/
 
 #restore dghr demo database
-mysql -D dgu -u co -ppass -e "SOURCE /tmp/dhgr/dgu.dump"
+mysql -D dgu -u co -ppass -e "SOURCE /tmp/dghr/dgu.dump"
 
 #clear all caches
 drush cc all

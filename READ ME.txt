@@ -1,5 +1,5 @@
-run 'sudo .deploydghr' from /tmp
+run 'sudo .deploydghr' from /tmp/dghr/
 
-cd /tmp
+cd /tmp/dghr/
 
 sudo ./deploydghr.sh
